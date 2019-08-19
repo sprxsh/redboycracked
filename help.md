@@ -4,7 +4,5 @@
 ```
 
 # Can't Update
-```
   - ![Download the update manually here](https://github.com/sprxsh/redboycracked)
-```
-![Download](https://github.com/sprxsh/redboycracked)
+
