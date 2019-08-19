@@ -5,5 +5,5 @@
 
 # Can't Update
 ```
-  - Download the update manually here: https://github.com/sprxsh/redboycracked
+  - ![Download the update manually here]: https://github.com/sprxsh/redboycracked
 ```
