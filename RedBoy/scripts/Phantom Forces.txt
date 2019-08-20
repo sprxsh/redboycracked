@@ -1,0 +1,766 @@
+-- Yggdrasil Cheats
+-- Made by Ashen Death
+local ok = false
+local player = game.Players.LocalPlayer
+
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local ExitUi = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local Frame2 = Instance.new("Frame")
+local Fram = Instance.new('ImageLabel')
+local SFrame = Instance.new('ScrollingFrame')
+local SFrame2 = Instance.new('ScrollingFrame')
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new('TextLabel')
+local Opentxt = Instance.new("TextButton")
+local SK1 = Instance.new('TextButton')
+local SK2 = Instance.new('TextButton')
+local SK3 = Instance.new('TextButton')
+local EX1 = Instance.new('TextButton')
+local EX2 = Instance.new('TextButton')
+local EX3 = Instance.new('TextButton')
+local PG1 = Instance.new('TextButton')
+local PG2 = Instance.new('TextButton')
+local madeby = Instance.new('TextLabel')
+local madeby2AL = Instance.new('TextLabel')
+local madeby3PF = Instance.new('TextLabel')
+local logoboy2 = Instance.new('ImageLabel')
+local info = Instance.new('TextLabel')
+local AL1 = Instance.new('TextButton')
+local AL2 = Instance.new('TextButton')
+local AL3 = Instance.new('TextButton')
+local AL4 = Instance.new('TextButton')
+local PF1 = Instance.new('TextButton')
+local VersionNum = Instance.new('TextLabel')
+local Img = Instance.new('Frame')
+local ImageBoy1 = Instance.new('ImageLabel')
+local MC1 = Instance.new('TextButton')
+local BB1 = Instance.new('TextButton')
+
+
+ScreenGui.Parent = game:GetService("CoreGui")
+
+
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.Position = UDim2.new(0.2, 0, 0.2, 0)
+Frame.Selectable = true
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(0.15, 0, 0.05, 0)
+Frame.Active = true
+Frame.Draggable = true
+
+Fram.Parent = Frame
+Fram.BorderSizePixel = 0
+Fram.BackgroundColor3 = Color3.new(0, 0, 0)
+Fram.BackgroundTransparency = 0.5
+Fram.BorderColor3 = Color3.new(0, 0, 0)
+Fram.Position = UDim2.new(0, 0, 0, 0)
+Fram.Size = UDim2.new(1, 0, 1, 0)
+Fram.Visible = false
+Fram.Image = "rbxassetid://969083290"
+
+
+SFrame.Parent = Fram
+SFrame.BorderSizePixel = 0
+SFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+SFrame.BackgroundTransparency = 0.5
+SFrame.BorderColor3 = Color3.new(0, 0, 0)
+SFrame.Position = UDim2.new(-1, 0, 0, 0)
+SFrame.Size = UDim2.new(1, 0, 1, 0)
+SFrame.Visible = false
+
+ImageBoy1.Parent = SFrame
+ImageBoy1.BorderSizePixel = 0
+ImageBoy1.BackgroundColor3 = Color3.new(0, 0, 0)
+ImageBoy1.BackgroundTransparency = 0.5
+ImageBoy1.BorderColor3 = Color3.new(0, 0, 0)
+ImageBoy1.Position = UDim2.new(0, 0, 0, 0)
+ImageBoy1.Size = UDim2.new(1, 0, 1, 0)
+ImageBoy1.Visible = false
+ImageBoy1.Image = "rbxassetid://969083290"
+
+SFrame2.Parent = Fram
+SFrame2.BorderSizePixel = 0
+SFrame2.BackgroundColor3 = Color3.new(0, 0, 0)
+SFrame2.BackgroundTransparency = 0.5
+SFrame2.BorderColor3 = Color3.new(0, 0, 0)
+SFrame2.Position = UDim2.new(-1, 0, 0, 0)
+SFrame2.Size = UDim2.new(0.9, 0, 1, 0)
+SFrame2.Visible = false
+
+ExitUi.Parent = Frame
+ExitUi.BorderSizePixel = 0
+ExitUi.BackgroundColor3 = Color3.new(0, 0, 0)
+ExitUi.BackgroundTransparency = 0
+ExitUi.BorderColor3 = Color3.new(0, 0, 0)
+ExitUi.Position = UDim2.new(1.05, 0, 0, 0)
+ExitUi.Size = UDim2.new(0.15, 0, 0.8, 0)
+ExitUi.Font = Enum.Font.SciFi
+ExitUi.Text = "X"
+ExitUi.TextColor3 = Color3.new(255, 0, 0)
+ExitUi.TextSize = 18
+
+
+
+Img.Parent = Frame
+Img.BorderSizePixel = 0
+Img.BackgroundColor3 = Color3.new(0, 0, 0)
+Img.BackgroundTransparency = 0.5
+Img.BorderColor3 = Color3.new(0, 0, 0)
+Img.Position = UDim2.new(0, 0, 0, 0)
+Img.Size = UDim2.new(1, 0, 1, 0)
+Img.Visible = false
+
+logoboy2.Parent = Frame
+logoboy2.BackgroundTransparency = 1
+logoboy2.Image = "rbxassetid://143978761"
+logoboy2.Position = UDim2.new(0.325, 0, 2, 0)
+logoboy2.Size = UDim2.new(0.4, 0, 2, 0)
+
+PG1.Parent = Frame
+PG1.BorderSizePixel = 0
+PG1.BackgroundColor3 = Color3.new(0, 0, 0)
+PG1.BackgroundTransparency = 0
+PG1.BorderColor3 = Color3.new(0, 0, 0)
+PG1.Position = UDim2.new(0, 0, -0.5, 0)
+PG1.Size = UDim2.new(0.1, 0, 0.5, 0)
+PG1.Font = Enum.Font.SciFi
+PG1.Text = "1"
+PG1.TextColor3 = Color3.new(255, 0, 0)
+PG1.TextSize = 18
+
+madeby.Parent = Fram
+madeby.BorderSizePixel = 0
+madeby.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+madeby.BackgroundTransparency = 1
+madeby.BorderColor3 = Color3.new(0, 0, 0)
+madeby.Position = UDim2.new(0.45, 0, 0.9, 0)
+madeby.Size = UDim2.new(0.1, 0, 0.1, 0)
+madeby.Font = Enum.Font.SciFi
+madeby.Text = "Scripts made by Megumu"
+madeby.TextColor3 = Color3.new(255, 0, 0)
+madeby.TextSize = 14
+madeby.Visible = false
+
+madeby2AL.Parent = Fram
+madeby2AL.BorderSizePixel = 0
+madeby2AL.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+madeby2AL.BackgroundTransparency = 1
+madeby2AL.BorderColor3 = Color3.new(0, 0, 0)
+madeby2AL.Position = UDim2.new(0, 0, 0.65, 0)
+madeby2AL.Size = UDim2.new(1, 0, 0.4, 0)
+madeby2AL.Font = Enum.Font.SciFi
+madeby2AL.Text = "Scripts made by Megumu"
+madeby2AL.TextWrapped = true
+madeby2AL.TextColor3 = Color3.new(255, 0, 0)
+madeby2AL.TextSize = 14
+madeby2AL.Visible = false
+
+
+VersionNum.Parent = Frame
+VersionNum.BorderSizePixel = 0
+VersionNum.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+VersionNum.BackgroundTransparency = 1
+VersionNum.BorderColor3 = Color3.new(0, 0, 0)
+VersionNum.Position = UDim2.new(0.45, 0, -0.4, 0)
+VersionNum.Size = UDim2.new(0.1, 0, 0.1, 0)
+VersionNum.Font = Enum.Font.SciFi
+VersionNum.Text = "v0.3.2"
+VersionNum.TextColor3 = Color3.new(255, 0, 0)
+VersionNum.TextSize = 24
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 0
+TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_3.Position = UDim2.new(-1, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_3.Font = Enum.Font.SciFi
+TextLabel_3.Text = "GAMES"
+TextLabel_3.TextColor3 = Color3.new(255, 0, 0)
+TextLabel_3.TextSize = 24
+TextLabel_3.Visible = false
+
+madeby3PF.Parent = Fram
+madeby3PF.BorderSizePixel = 0
+madeby3PF.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+madeby3PF.BackgroundTransparency = 1
+madeby3PF.BorderColor3 = Color3.new(0, 0, 0)
+madeby3PF.Position = UDim2.new(0.45, 0, 0.225, 0)
+madeby3PF.Size = UDim2.new(0.1, 0, 0.1, 0)
+madeby3PF.Font = Enum.Font.SciFi
+madeby3PF.Text = "Script made by Avexus"
+madeby3PF.TextColor3 = Color3.new(255, 0, 0)
+madeby3PF.TextSize = 14
+madeby3PF.Visible = false
+
+PG2.Parent = Frame
+PG2.BorderSizePixel = 0
+PG2.BackgroundColor3 = Color3.new(0, 0, 0)
+PG2.BackgroundTransparency = 0
+PG2.BorderColor3 = Color3.new(0, 0, 0)
+PG2.Position = UDim2.new(0.11, 0, -0.5, 0)
+PG2.Size = UDim2.new(0.1, 0, 0.5, 0)
+PG2.Font = Enum.Font.SciFi
+PG2.Text = "2"
+PG2.TextColor3 = Color3.new(255, 0, 0)
+PG2.TextSize = 18
+
+info.Parent = Frame
+info.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+info.BackgroundTransparency = 1
+info.BorderColor3 = Color3.new(0, 0, 0)
+info.Position = UDim2.new(1.75, 0, 3.15, 0)
+info.Size = UDim2.new(0, 0, 0, 0)
+info.Font = Enum.Font.GothamBlack
+info.Text = "Does not work for every game"
+info.TextColor3 = Color3.new(255, 0, 0)
+info.TextSize = 15
+info.Visible = false
+
+TextButton.Parent = SFrame
+TextButton.BorderSizePixel = 0
+TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton.BackgroundTransparency = 0
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.Position = UDim2.new(0.2, 0, 0.05, 0)
+TextButton.Size = UDim2.new(0.52, 0, 0.1, 0)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "Street Kings"
+TextButton.TextScaled = true
+TextButton.TextWrapped = true
+TextButton.TextColor3 = Color3.new(255, 0, 0)
+TextButton.TextSize = 15
+
+TextButton_2.Parent = SFrame
+TextButton_2.BorderSizePixel = 0
+TextButton_2.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_2.BackgroundTransparency = 0
+TextButton_2.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_2.Position = UDim2.new(0.2, 0, 0.165, 0)
+TextButton_2.Size = UDim2.new(0.52, 0, 0.1, 0)
+TextButton_2.Font = Enum.Font.SciFi
+TextButton_2.TextScaled = true
+TextButton_2.TextWrapped = true
+TextButton_2.Text = "Arcane Legacy"
+TextButton_2.TextColor3 = Color3.new(255, 0, 0)
+TextButton_2.TextSize = 14
+
+TextButton_3.Parent = Fram
+TextButton_3.BorderSizePixel = 0
+TextButton_3.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_3.BackgroundTransparency = 0
+TextButton_3.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_3.Position = UDim2.new(0.5, 0, 1, 0)
+TextButton_3.Size = UDim2.new(0.5, 0, 0.1, 0)
+TextButton_3.Font = Enum.Font.GothamBold
+TextButton_3.Text = "Extra"
+TextButton_3.TextColor3 = Color3.new(255, 0, 0)
+TextButton_3.TextSize = 18
+
+TextButton_4.Parent = SFrame
+TextButton_4.BorderSizePixel = 0
+TextButton_4.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_4.BackgroundTransparency = 0
+TextButton_4.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_4.Position = UDim2.new(0.2, 0, 0.275, 0)
+TextButton_4.Size = UDim2.new(0.52, 0, 0.1, 0)
+TextButton_4.Font = Enum.Font.SciFi
+TextButton_4.TextScaled = true
+TextButton_4.TextWrapped = true
+TextButton_4.Text = "Phantom Forces"
+TextButton_4.TextColor3 = Color3.new(255, 0, 0)
+TextButton_4.TextSize = 14
+
+TextButton_5.Parent = SFrame
+TextButton_5.BorderSizePixel = 0
+TextButton_5.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_5.BackgroundTransparency = 0
+TextButton_5.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_5.Position = UDim2.new(0.2, 0, 0.385, 0)
+TextButton_5.Size = UDim2.new(0.52, 0, 0.1, 0)
+TextButton_5.Font = Enum.Font.SciFi
+TextButton_5.TextScaled = true
+TextButton_5.TextWrapped = true
+TextButton_5.Text = "Mad City"
+TextButton_5.TextColor3 = Color3.new(255, 0, 0)
+TextButton_5.TextSize = 14
+
+TextButton_6.Parent = SFrame
+TextButton_6.BorderSizePixel = 0
+TextButton_6.BackgroundColor3 = Color3.new(0, 0, 0)
+TextButton_6.BackgroundTransparency = 0
+TextButton_6.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_6.Position = UDim2.new(0.2, 0, 0.495, 0)
+TextButton_6.Size = UDim2.new(0.52, 0, 0.1, 0)
+TextButton_6.Font = Enum.Font.SciFi
+TextButton_6.TextScaled = true
+TextButton_6.TextWrapped = true
+TextButton_6.Text = "Booga Booga"
+TextButton_6.TextColor3 = Color3.new(255, 0, 0)
+TextButton_6.TextSize = 14
+
+PF1.Parent = Fram
+PF1.BackgroundColor3 = Color3.new(0, 0, 0)
+PF1.BackgroundTransparency = 0
+PF1.BorderColor3 = Color3.new(0, 0, 0)
+PF1.Position = UDim2.new(0.06, 0, 0.1, 0)
+PF1.Size = UDim2.new(0.85, 0, 0.12, 0)
+PF1.Font = Enum.Font.SciFi
+PF1.TextWrapped = true
+PF1.TextScaled = true
+PF1.Text = "Game Sense"
+PF1.TextColor3 = Color3.new(255, 0, 0)
+PF1.TextSize = 15
+PF1.Visible = false
+
+BB1.Parent = Fram
+BB1.BackgroundColor3 = Color3.new(0, 0, 0)
+BB1.BackgroundTransparency = 0
+BB1.BorderColor3 = Color3.new(0, 0, 0)
+BB1.Position = UDim2.new(0.06, 0, 0.1, 0)
+BB1.Size = UDim2.new(0.85, 0, 0.12, 0)
+BB1.Font = Enum.Font.SciFi
+BB1.TextWrapped = true
+BB1.TextScaled = true
+BB1.Text = "N/A"
+BB1.TextColor3 = Color3.new(255, 0, 0)
+BB1.TextSize = 15
+BB1.Visible = false
+
+AL1.Parent = Fram
+AL1.BackgroundColor3 = Color3.new(0, 0, 0)
+AL1.BackgroundTransparency = 0
+AL1.BorderColor3 = Color3.new(0, 0, 0)
+AL1.Position = UDim2.new(0.06, 0, 0.1, 0)
+AL1.Size = UDim2.new(0.85, 0, 0.12, 0)
+AL1.Font = Enum.Font.SciFi
+AL1.TextWrapped = true
+AL1.TextScaled = true
+AL1.Text = "Max Lamina"
+AL1.TextColor3 = Color3.new(255, 0, 0)
+AL1.TextSize = 15
+AL1.Visible = false
+
+
+AL2.Parent = Fram
+AL2.BackgroundColor3 = Color3.new(0, 0, 0)
+AL2.BackgroundTransparency = 0
+AL2.BorderColor3 = Color3.new(0, 0, 0)
+AL2.Position = UDim2.new(0.06, 0, 0.25, 0)
+AL2.Size = UDim2.new(0.85, 0, 0.12, 0)
+AL2.Font = Enum.Font.SciFi
+AL2.TextWrapped = true
+AL2.TextScaled = true
+AL2.Text = "Max Aurem"
+AL2.TextColor3 = Color3.new(255, 0, 0)
+AL2.TextSize = 15
+AL2.Visible = false
+
+AL3.Parent = Fram
+AL3.BackgroundColor3 = Color3.new(0, 0, 0)
+AL3.BackgroundTransparency = 0
+AL3.BorderColor3 = Color3.new(0, 0, 0)
+AL3.Position = UDim2.new(0.06, 0, 0.4, 0)
+AL3.Size = UDim2.new(0.85, 0, 0.12, 0)
+AL3.Font = Enum.Font.SciFi
+AL3.TextWrapped = true
+AL3.TextScaled = true
+AL3.Text = "Chest TP"
+AL3.TextColor3 = Color3.new(255, 0, 0)
+AL3.TextSize = 15
+AL3.Visible = false
+
+AL4.Parent = Fram
+AL4.BackgroundColor3 = Color3.new(0, 0, 0)
+AL4.BackgroundTransparency = 0
+AL4.BorderColor3 = Color3.new(0, 0, 0)
+AL4.Position = UDim2.new(0.06, 0, 0.55, 0)
+AL4.Size = UDim2.new(0.85, 0, 0.12, 0)
+AL4.Font = Enum.Font.SciFi
+AL4.TextWrapped = true
+AL4.TextScaled = true
+AL4.Text = "Magic Horn Auto Farm"
+AL4.TextColor3 = Color3.new(255, 0, 0)
+AL4.TextSize = 15
+AL4.Visible = false
+
+EX1.Parent = Fram
+EX1.BackgroundColor3 = Color3.new(0, 0, 0)
+EX1.BackgroundTransparency = 0
+EX1.BorderColor3 = Color3.new(0, 0, 0)
+EX1.Position = UDim2.new(0.06, 0, 0.1, 0)
+EX1.Size = UDim2.new(0.85, 0, 0.12, 0)
+EX1.Font = Enum.Font.SciFi
+EX1.TextWrapped = true
+EX1.TextScaled = true
+EX1.Text = "Reviz Admin V2"
+EX1.TextColor3 = Color3.new(255, 0, 0)
+EX1.TextSize = 15
+EX1.Visible = false
+
+EX2.Parent = Fram
+EX2.BackgroundColor3 = Color3.new(0, 0, 0)
+EX2.BackgroundTransparency = 0
+EX2.BorderColor3 = Color3.new(0, 0, 0)
+EX2.Position = UDim2.new(0.06, 0, 0.25, 0)
+EX2.Size = UDim2.new(0.85, 0, 0.12, 0)
+EX2.Font = Enum.Font.SciFi
+EX2.TextWrapped = true
+EX2.TextScaled = true
+EX2.Text = "Super Jump"
+EX2.TextColor3 = Color3.new(255, 0, 0)
+EX2.TextSize = 15
+EX2.Visible = false
+
+EX3.Parent = Fram
+EX3.BackgroundColor3 = Color3.new(0, 0, 0)
+EX3.BackgroundTransparency = 0
+EX3.BorderColor3 = Color3.new(0, 0, 0)
+EX3.Position = UDim2.new(0.06, 0, 0.4, 0)
+EX3.Size = UDim2.new(0.85, 0, 0.12, 0)
+EX3.Font = Enum.Font.SciFi
+EX3.TextWrapped = true
+EX3.TextScaled = true
+EX3.Text = "Super Speed"
+EX3.TextColor3 = Color3.new(255, 0, 0)
+EX3.TextSize = 15
+EX3.Visible = false
+
+SK1.Parent = Fram
+SK1.BackgroundColor3 = Color3.new(0,0,0)
+SK1.BackgroundTransparency = 0
+SK1.BorderColor3 = Color3.new(0, 0, 0)
+SK1.Position = UDim2.new(0.06, 0, 0.1, 0)
+SK1.Size = UDim2.new(0.85, 0, 0.12, 0)
+SK1.Font = Enum.Font.SciFi
+SK1.TextWrapped = true
+SK1.TextScaled = true
+SK1.Text = "Health Farm"
+SK1.TextColor3 = Color3.new(255, 0, 0)
+SK1.TextSize = 15
+SK1.Visible = false
+
+SK2.Parent = Fram
+SK2.BackgroundColor3 = Color3.new(0, 0, 0)
+SK2.BackgroundTransparency = 0
+SK2.BorderColor3 = Color3.new(0, 0, 0)
+SK2.Position = UDim2.new(0.06, 0, 0.25, 0)
+SK2.Size = UDim2.new(0.85, 0, 0.12, 0)
+SK2.Font = Enum.Font.SciFi
+SK2.TextWrapped = true
+SK2.TextScaled = true
+SK2.Text = "Strength Farm"
+SK2.TextColor3 = Color3.new(255, 0, 0)
+SK2.TextSize = 15
+SK2.Visible = false
+
+SK3.Parent = Fram
+SK3.BackgroundColor3 = Color3.new(0, 0, 0)
+SK3.BackgroundTransparency = 0
+SK3.BorderColor3 = Color3.new(0, 0, 0)
+SK3.Position = UDim2.new(0.06, 0, 0.4, 0)
+SK3.Size = UDim2.new(0.85, 0, 0.12, 0)
+SK3.Font = Enum.Font.SciFi
+SK3.TextWrapped = true
+SK3.TextScaled = true
+SK3.Text = "Stamina Farm"
+SK3.TextColor3 = Color3.new(255, 0, 0)
+SK3.TextSize = 15
+SK3.Visible = false
+
+MC1.Parent = Fram
+MC1.BackgroundColor3 = Color3.new(0, 0, 0)
+MC1.BackgroundTransparency = 0
+MC1.BorderColor3 = Color3.new(0, 0, 0)
+MC1.Position = UDim2.new(0.06, 0, 0.1, 0)
+MC1.Size = UDim2.new(0.85, 0, 0.12, 0)
+MC1.Font = Enum.Font.SciFi
+MC1.TextWrapped = true
+MC1.TextScaled = true
+MC1.Text = "Mad City GUI"
+MC1.TextColor3 = Color3.new(255, 0, 0)
+MC1.TextSize = 15
+MC1.Visible = false
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel.BackgroundTransparency = 0.2
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, 0.1, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.8, 0)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Yggdrasil Cheats"
+TextLabel.TextColor3 = Color3.new(255, 0, 0)
+TextLabel.TextSize = 14
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+TextLabel_2.BackgroundTransparency = 100
+TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0.5, 0, 1.25, 0)
+TextLabel_2.Size = UDim2.new(0, 0, 0, 0)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "Discord: Ashen Death#1928"
+TextLabel_2.TextColor3 = Color3.new(255, 0, 0)
+TextLabel_2.TextSize = 12
+
+Opentxt.Parent = Frame
+Opentxt.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+Opentxt.BackgroundTransparency = 1
+Opentxt.BorderColor3 = Color3.new(0, 0, 0)
+Opentxt.Position = UDim2.new(0.8, 0, 0.33, 0)
+Opentxt.Size = UDim2.new(0.25, 0, 0.25, 0)
+Opentxt.Font = Enum.Font.SciFi
+Opentxt.Text = "+"
+Opentxt.TextColor3 = Color3.new(255, 0, 0)
+Opentxt.TextSize = 18
+
+Opentxt.MouseButton1Down:Connect(function()
+if Fram.Visible == false then
+	Fram.Visible = true
+	Fram.Position = UDim2.new(0, 0, 1, 0)
+	SFrame.Visible = true
+	logoboy2.Visible = false
+	SK1.Visible = false
+	SK2.Visible = false
+	SK3.Visible = false
+	madeby.Visible = false
+	ImageBoy1.Visible = true
+	TextLabel_3.Visible = true
+	
+Fram.Size = UDim2.new(1,0,6,0)
+Opentxt.Text = "-"
+elseif Fram.Visible == true then
+	Opentxt.Text = "+"
+	SFrame.Visible = false
+Fram.Visible = false
+logoboy2.Visible = true
+TextLabel_3.Visible = false
+end
+end)
+
+TextButton.MouseButton1Down:Connect(function()
+if SK1.Visible == false then 
+	SK1.Visible = true
+	SK2.Visible = true
+	SK3.Visible = true
+	madeby.Visible = true
+	MC1.Visible = false
+	EX1.Visible = false
+	EX2.Visible = false
+	EX3.Visible = false
+	AL1.Visible = false
+	AL2.Visible = false
+	AL3.Visible = false
+	AL4.Visible = false
+	madeby2AL.Visible = false
+	madeby3PF.Visible = false
+		PF1.Visible = false
+	elseif SK1.Visible == true then
+	SK1.Visible = false
+	SK2.Visible = false
+	SK3.Visible = false
+	madeby.Visible = false
+end
+end)
+SK1.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/dmTpWNMM'),true))()
+end)
+SK2.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/fMrzGzLD'),true))()
+end)
+SK3.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/VBjs7QN5'),true))()
+end)
+AL1.MouseButton1Down:Connect(function()
+	game:GetService("ReplicatedStorage")["\216\189"].SetStat:FireServer("Lamina", 99999999, "math.random() is the best thing ever")
+end)
+AL2.MouseButton1Down:Connect(function()
+	game:GetService("ReplicatedStorage")["\216\189"].SetStat:FireServer("Aurem", 1000, "math.random() is the best thing ever")
+end)
+AL3.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/yJWLat72'),true))()
+end)
+AL4.MouseButton1Down:Connect(function()
+	 while wait(.6) do
+for i=1,4 do
+local tbl_main =
+{
+     "Blast"
+}
+game.Players.LocalPlayer.Character["Magic Horn"].Weapon:FireServer(unpack(tbl_main))
+end
+end
+end)
+PF1.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/cdPJxGDU'),true))()
+end)
+TextButton_2.MouseButton1Down:Connect(function()
+if AL1.Visible == false then 
+		AL1.Visible = true
+		AL2.Visible = true
+		AL3.Visible = true
+		AL4.Visible = true
+		MC1.Visible = false
+		madeby.Visible = false
+		madeby2AL.Visible = true
+		EX1.Visible = false
+		EX2.Visible = false
+		EX3.Visible = false
+		SK1.Visible = false
+		SK2.Visible = false
+		SK3.Visible = false
+		BB1.Visible = false
+		madeby3PF.Visible = false
+		PF1.Visible = false
+	elseif SK1.Visible == true then
+		AL1.Visible = false
+		AL2.Visible = false
+		AL3.Visible = false
+		AL4.Visible = false
+		madeby2AL.Visible = false
+end
+end)
+TextButton_3.MouseButton1Down:Connect(function()
+	if EX1.Visible == false then 
+		EX1.Visible = true
+		EX2.Visible = true
+		EX3.Visible = true
+		MC1.Visible = false
+		SK1.Visible = false
+		SK2.Visible = false
+		SK3.Visible = false
+		AL1.Visible = false
+		AL2.Visible = false
+		AL3.Visible = false
+		AL4.Visible = false
+		BB1.Visible = false
+		madeby.Visible = false
+		madeby2AL.Visible = false
+		madeby3PF.Visible = false
+		PF1.Visible = false
+	elseif SK1.Visible == true then
+		EX1.Visible = false
+		EX2.Visible = false
+		EX3.Visible = false
+end
+end)
+TextButton_4.MouseButton1Down:Connect(function()
+	if PF1.Visible == false then 
+		BB1.Visible = false
+		PF1.Visible = true
+		EX1.Visible = false
+		EX2.Visible = false
+		EX3.Visible = false
+		SK1.Visible = false
+		SK2.Visible = false
+		SK3.Visible = false
+		AL1.Visible = false
+		AL2.Visible = false
+		AL3.Visible = false
+		AL4.Visible = false
+		madeby.Visible = false
+		madeby2AL.Visible = false
+		madeby3PF.Visible = true
+	elseif SK1.Visible == true then
+		madeby3PF.Visible = false
+		PF1.Visible = false
+end
+end)
+TextButton_5.MouseButton1Down:Connect(function()
+	if MC1.Visible == false then 
+		BB1.Visible = false
+		MC1.Visible = true
+		EX1.Visible = false
+		EX2.Visible = false
+		EX3.Visible = false
+		SK1.Visible = false
+		SK2.Visible = false
+		SK3.Visible = false
+		AL1.Visible = false
+		AL2.Visible = false
+		AL3.Visible = false
+		AL4.Visible = false
+		madeby.Visible = false
+		madeby2AL.Visible = false
+		madeby3PF.Visible = false
+	elseif SK1.Visible == true then
+		MC1.Visible = false
+end
+end)
+
+TextButton_6.MouseButton1Down:Connect(function()
+	if BB1.Visible == false then 
+		BB1.Visible = true
+		MC1.Visible = false
+		EX1.Visible = false
+		EX2.Visible = false
+		EX3.Visible = false
+		SK1.Visible = false
+		SK2.Visible = false
+		SK3.Visible = false
+		AL1.Visible = false
+		AL2.Visible = false
+		AL3.Visible = false
+		AL4.Visible = false
+		madeby.Visible = false
+		madeby2AL.Visible = false
+		madeby3PF.Visible = false
+	elseif SK1.Visible == true then
+		BB1.Visible = false
+end
+end)
+
+EX1.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/KCCXCA10',true))()
+end)
+
+EX2.MouseButton1Down:Connect(function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
+end)
+EX3.MouseButton1Down:Connect(function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+end)
+MC1.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/sYgxhDak',true))()
+end)
+EX2.MouseEnter:Connect(function()
+info.Visible = true
+end)
+EX2.MouseLeave:Connect(function()
+info.Visible = false
+end)
+EX3.MouseEnter:Connect(function()
+info.Visible = true
+end)
+EX3.MouseLeave:Connect(function()
+info.Visible = false
+end)
+ExitUi.MouseButton1Down:Connect(function()
+ScreenGui:Destroy()
+end)
+warn("Created by Ashen Death")
+warn("Ashen Death#1928")
+wait()
+game.StarterGui:SetCore("SendNotification", {
+Title = "Yggdrasil Cheats"; -- the title (ofc)
+Text = "Thank you for using the Yggdrasil Cheats GUI, have fun :)"; -- what the text says (ofc)
+Icon = "rbxassetid://143978761"; -- the image if u want. 
+Duration = 30; -- how long the notification should in secounds
+})
