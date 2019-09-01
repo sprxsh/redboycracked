@@ -1,5 +1,5 @@
 --[[
-    Synapse Xen v1.1.2 by Synapse GP
+    Synapse Xen v1.1.2 by Synapse GP XD
     VM Hash: d486b257d55c8bf7e0922ef6f5bf827a8f853cf694bb201dcf5c97c78d34d5e2
 ]]
 
